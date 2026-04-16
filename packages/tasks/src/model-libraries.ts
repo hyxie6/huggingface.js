@@ -1106,6 +1106,14 @@ export const MODEL_LIBRARIES_UI_ELEMENTS = {
 		repoUrl: "https://github.com/airockchip/rknn-llm",
 		countDownloads: `path_extension:"rkllm"`,
 	},
+	"horizonlabs-holobrain": {
+		prettyLabel: "HorizonLabs HoloBrain",
+		repoName: "HoloBrain",
+		repoUrl: "https://github.com/HorizonRobotics/RoboOrchardLab/tree/master/projects/holobrain",
+		docsUrl: "https://horizonrobotics.github.io/robot_lab/holobrain/",
+		filter: false,
+		countDownloads: `path_extension:"safetensors"`,
+	},
 	saelens: {
 		prettyLabel: "SAELens",
 		repoName: "SAELens",
