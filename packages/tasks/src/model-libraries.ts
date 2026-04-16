@@ -1106,6 +1106,14 @@ export const MODEL_LIBRARIES_UI_ELEMENTS = {
 		repoUrl: "https://github.com/airockchip/rknn-llm",
 		countDownloads: `path_extension:"rkllm"`,
 	},
+	"robo-orchard-lab": {
+		prettyLabel: "RoboOrchardLab",
+		repoName: "RoboOrchardLab",
+		repoUrl: "https://github.com/HorizonRobotics/RoboOrchardLab",
+		docsUrl: "https://github.com/HorizonRobotics/RoboOrchardLab/tree/master/projects/holobrain",
+		filter: false,
+		countDownloads: `path:"pretrain/model.safetensors" OR path:"post_training_foldclothes/model.safetensors" OR path:"post_training_graspanything/model.safetensors" OR path:"post_training_robotwin/model.safetensors"`,
+	},
 	saelens: {
 		prettyLabel: "SAELens",
 		repoName: "SAELens",
